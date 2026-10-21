@@ -23,11 +23,12 @@
 ## Стек
 `Python` `PyTorch` `Ultralytics (YOLOv8)` `OpenCV` `EasyOCR`
 
-## запуск
+## Запуск
 1. Установите зависимости: `pip install -r requirements.txt`
-2. Положите тестовые фото в папку `output/test_images/`.
+2. Скачайте `best.pt` из [Releases](https://github.com/pavlegromov143/banknote-scanner/releases) и положите в папку `models/`.
+3. Положите тестовые фото в папку `output/test_images/`.
    **Желательно, чтобы купюра была сфотографирована без наклона** — ровно, сверху, с хорошо видимым серийным номером.
-3. Запустите скрипт:
+4. Запустите скрипт:
 ```bash
 cd src
 python main.py
