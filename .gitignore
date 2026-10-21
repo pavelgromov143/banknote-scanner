@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+output/debug_crops/
+output/results.csv
+models/*.pt
+!models/.gitkeep
+!output/test_images/.gitkeep
